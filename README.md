@@ -1,4 +1,4 @@
-# React Component Library
+# React Lib Starter
 
 This project provides a boilerplate to help you create and publish reusable React components to npm. It is built with following tools to ensure an efficient development experience.
 
