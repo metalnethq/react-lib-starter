@@ -17,6 +17,8 @@ This project provides a boilerplate to help you create and publish reusable Reac
 - [Node.js](https://nodejs.org/en/) (>= 16.0.0)
 - [pnpm](https://pnpm.io/) (>= 8.0.0)
 
+### Note: The consumer of your npm package will need to have tailwindcss installed in their project.
+
 ## Getting Started
 
 To start using this boilerplate, follow these steps:
