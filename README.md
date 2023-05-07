@@ -80,7 +80,7 @@ This is a commitizen friendly project. So, you can use `pnpm commit` to commit y
 2. Install dependencies: `pnpm install`.
 3. Create a new branch for your changes: `git checkout -b feature/your-feature`.
 4. To ensure all the githooks are instakked run `pnpm husky install`. This should enable Commitizen for `git commit`.
-5. Push your changes to your branch and create a Pull Request to `main` branch. You can change the branch in `.github/workflows/release.yml` file.
+5. Push your changes to your branch and create a Pull Request to `main` branch.
 
 ## License
 
