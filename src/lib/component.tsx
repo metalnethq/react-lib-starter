@@ -1,7 +1,3 @@
-export function Test() {
-  return (
-    <div>
-      Created By: <a href="https://github.com/bytemebaby">bytemebaby</a>
-    </div>
-  );
+export function Test({ children }: { children?: React.ReactNode }) {
+  return <div>{children}</div>;
 }

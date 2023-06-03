@@ -21,8 +21,8 @@
 
     /* Type checking */
     "declaration": true,
-    "typeRoots": ["./dist/index.d.ts"]
+    "typeRoots": ["./dist/index.d.ts", "./node_modules/@types"]
   },
-  "include": ["src", "./index.ts"],
+  "include": ["src", "./index.ts", "tests"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
