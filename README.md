@@ -17,16 +17,16 @@ This project provides a boilerplate to help you create and publish reusable Reac
 - [Node.js](https://nodejs.org/en/) (>= 16.0.0)
 - [pnpm](https://pnpm.io/) (>= 8.0.0)
 
-### Note: The consumer of your npm package will need to have tailwindcss installed in their project.
+### Note: The consumer of your npm package will need to have TailwindCSS installed in their project.
 
 ## Getting Started
 
-To start using this boilerplate, follow these steps:
+To start using this boilerplate and manually release, follow these steps:
 
 1. Clone this repository:
 
    ```
-   git clone https://github.com/yourusername/your-component-library.git
+   git clone https://github.com/ByteMeBaby/react-lib-starter.git 
    ```
 
 2. Install dependencies using pnpm:
@@ -54,7 +54,7 @@ To manually release a new version of your component library, follow these steps:
     pnpm publish
    ```
 
-## Auto Releasing
+## Auto Releasing with Release Please
 
 This project uses [Release Please](https://github.com/googleapis/release-please) for semantic release. To release a new version of your component library, follow these steps:
 
