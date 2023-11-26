@@ -68,7 +68,7 @@ This project uses [Release Please](https://github.com/googleapis/release-please)
 
 ### How to semantically release
 
-This is a commitizen friendly project. So, you can use `pnpm commit` to commit your changes. It will automatically generate a commit message for you. When you merge your changes into the main branch, Release Please will automatically create a release PR for you, based on the commit messages.
+This is a [commitizen](https://github.com/commitizen/cz-cli) friendly project. So, you can use `pnpm commit` to commit your changes. It will automatically generate a commit message for you. When you merge your changes into the main branch, Release Please will automatically create a release PR for you, based on the commit messages.
 
 1. Create a new branch for your changes: `git checkout -b feature/your-feature`.
 2. Make your changes and commit them using Commitizen: `pnpm commit`.
