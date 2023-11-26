@@ -18,10 +18,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-
+    "types": ["vitest/globals"],
     /* Type checking */
     "declaration": true,
-    "typeRoots": ["./dist/index.d.ts", "./node_modules/@types"]
+    "typeRoots": [
+      "./dist/index.d.ts",
+      "./node_modules/@types",
+      "./types",
+      "./node_modules"
+    ]
   },
   "include": ["src", "./index.ts", "tests"],
   "references": [{ "path": "./tsconfig.node.json" }]
