@@ -17,7 +17,10 @@ This project provides a boilerplate to help you create and publish reusable Reac
 - [Node.js](https://nodejs.org/en/) (>= 16.0.0)
 - [pnpm](https://pnpm.io/) (>= 8.0.0)
 
-### Note: The consumer of your npm package will need to have TailwindCSS installed in their project.
+### Note:
+
+1. The consumer of your npm package will need to have TailwindCSS installed in their project.
+2. This project supports css modules. So, you can use `*.module.css` files to style your components. To import modules into your components you have to generate types for css modules. To easily generate the typ definitions, you can use [typed-css-modules](https://www.npmjs.com/package/typed-css-modules) package.
 
 ## Getting Started
 
@@ -26,7 +29,7 @@ To start using this boilerplate and manually release, follow these steps:
 1. Clone this repository:
 
    ```
-   git clone https://github.com/ByteMeBaby/react-lib-starter.git 
+   git clone https://github.com/ByteMeBaby/react-lib-starter.git
    ```
 
 2. Install dependencies using pnpm:
@@ -60,7 +63,7 @@ This project uses [Release Please](https://github.com/googleapis/release-please)
 
 ### Setting up environment
 
-1. Rename folder `github` to `.github`.
+1. Copy the content of `github` to `.github`.
 2. Create a new GitHub token as `GITHUB_TOKEN` with the `repo` scope.
 3. In repository settings -> Actions -> General -> workflow permissions, Allow github actions to create and approve pull requests.
 4. Create a new NPM token as `NPM_TOKEN` and put it under your repository secrets.

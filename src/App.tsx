@@ -1,5 +1,6 @@
 import "./App.css";
-import { Test } from "./lib/component";
+import { Test } from "./lib/component/component";
+import React from "react";
 
 function App() {
   return (
