@@ -1,10 +1,11 @@
 # React Lib Starter
 
-This project provides a boilerplate to help you create and publish reusable React components to npm. It is built with following tools to ensure an efficient development experience.
+This project provides a boilerplate to help you create and publish reusable React components to npm.
 
 ## Features
 
 - **Vite**: Fast development and optimized bundling for your component library.
+- **Vitest**: Fast testing with Vite.
 - **Tailwind CSS**: Utility-first CSS framework for rapidly building custom designs.
 - **pnpm**: Efficient package management with improved performance and disk space usage.
 - **TypeScript**: Static typing for better code quality and maintainability.
@@ -14,8 +15,8 @@ This project provides a boilerplate to help you create and publish reusable Reac
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/en/) (>= 16.0.0)
-- [pnpm](https://pnpm.io/) (>= 8.0.0)
+- [Node.js](https://nodejs.org/en/) (>= 18.17.0)
+- [pnpm](https://pnpm.io/) (>= 8.12.0)
 
 ### Note:
 
@@ -32,29 +33,28 @@ To start using this boilerplate and manually release, follow these steps:
    git clone https://github.com/ByteMeBaby/react-lib-starter.git
    ```
 
-2. Install dependencies using pnpm:
+2. Do the necessary changes to the `package.json` file: such as
+
+   - Change the `name` field to your package name.
+   - Change the `description` field to your package description.
+   - Change the `repository` field to your repository URL.
+   - Change the `author` field to your name.
+   - Change the `license` field to your license.
+   - Change the `keywords` field to your keywords.
+   - Change the `homepage` field to your homepage URL.
+   - Change the `bugs` field to your repository issues URL.
+   - Change the `publishConfig` field to your npm registry URL.
+
+3. Install dependencies using pnpm:
 
    ```
    pnpm install
    ```
 
-3. Start the development server:
+4. Start the development server:
 
    ```
    pnpm dev
-   ```
-
-To manually release a new version of your component library, follow these steps:
-
-4. Build the library for production:
-
-   ```
-   pnpm build
-   ```
-
-5. Publish the library to npm:
-   ```
-    pnpm publish
    ```
 
 ## Auto Releasing with Release Please
@@ -78,6 +78,21 @@ This is a [commitizen](https://github.com/commitizen/cz-cli) friendly project. S
 3. Push your changes to your fork and create a Pull Request.
 4. The Release Please GitHub Action will automatically create a release PR when new changes are merged into the main branch.
 5. Review the release PR and merge it to create a new release.
+
+## Manually releasing to npm
+
+To manually release a new version of your component library, follow these steps:
+
+1. Build the library for production:
+
+   ```
+   pnpm build
+   ```
+
+2. Publish the library to npm:
+   ```
+    pnpm publish
+   ```
 
 ## Contributing
 
