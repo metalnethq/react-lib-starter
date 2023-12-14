@@ -27,35 +27,37 @@ This project provides a boilerplate to help you create and publish reusable Reac
 
 To start using this boilerplate and manually release, follow these steps:
 
-1. Clone this repository:
+1.  1.  Clone this repository:
 
-   ```
-   git clone https://github.com/ByteMeBaby/react-lib-starter.git
-   ```
+    ```
+    git clone https://github.com/ByteMeBaby/react-lib-starter.git
+    ```
 
-2. Do the necessary changes to the `package.json` file: such as
+    2.  Or, since this is a [https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template](template repository), you can click on the "Use this template" button to [https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template](create a new repository from this template).
 
-   - Change the `name` field to your package name.
-   - Change the `description` field to your package description.
-   - Change the `repository` field to your repository URL.
-   - Change the `author` field to your name.
-   - Change the `license` field to your license.
-   - Change the `keywords` field to your keywords.
-   - Change the `homepage` field to your homepage URL.
-   - Change the `bugs` field to your repository issues URL.
-   - Change the `publishConfig` field to your npm registry URL.
+2.  Do the necessary changes to the `package.json` file: such as
 
-3. Install dependencies using pnpm:
+    - Change the `name` field to your package name.
+    - Change the `description` field to your package description.
+    - Change the `repository` field to your repository URL.
+    - Change the `author` field to your name.
+    - Change the `license` field to your license.
+    - Change the `keywords` field to your keywords.
+    - Change the `homepage` field to your homepage URL.
+    - Change the `bugs` field to your repository issues URL.
+    - Change the `publishConfig` field to your npm registry URL.
 
-   ```
-   pnpm install
-   ```
+3.  Install dependencies using pnpm:
 
-4. Start the development server:
+    ```
+    pnpm install
+    ```
 
-   ```
-   pnpm dev
-   ```
+4.  Start the development server:
+
+    ```
+    pnpm dev
+    ```
 
 ## Auto Releasing with Release Please
 
