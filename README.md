@@ -33,7 +33,7 @@ To start using this boilerplate and manually release, follow these steps:
     git clone https://github.com/ByteMeBaby/react-lib-starter.git
     ```
 
-    2.  Or, since this is a [https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template](template repository), you can click on the "Use this template" button to [https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template](create a new repository from this template).
+    2.  Or, since this is a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), you can click on the "Use this template" button to [create a new repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
 2.  Do the necessary changes to the `package.json` file: such as
 
